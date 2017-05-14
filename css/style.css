@@ -1,0 +1,207 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background-color: dimgray !important;
+}
+
+section {
+    width: 70%;
+    height: 953px;
+    border: 2px solid orange;
+    left: 0;
+}
+
+header {
+    position: fixed;
+    width: 1340px;
+    height: 96px;
+    border: 2px solid grey;
+    background-color: black;
+}
+
+#header-img {
+    position: absolute;
+    width: 199px;
+    height: 96px;
+    background-image: url(../img/basic-metal-logo.PNG);
+    background-size: 200px 100px;
+    background-repeat: no-repeat;
+}
+
+#maps-location {
+    position: absolute;
+    width: 1020px;
+    height: 80px;
+    /*    border: 2px solid grey;*/
+    /* background-color: black; */
+    left: 220px;
+    top: 10px;
+}
+
+#map-location-clemens {
+    position: absolute;
+    width: 138px;
+    color: whitesmoke;
+    border: 2px ridge dimgrey;
+    border-radius: 5px;
+    background-color: black;
+    font-weight: bold;
+    font-size: 10px;
+    left: 230px;
+    height: 20px;
+    text-align: left;
+    padding: 5px;
+    /*    display: inline-flex;*/
+    top: 22px;
+    clear: both;
+}
+
+#map-location-newhaven {
+    position: absolute;
+    width: 138px;
+    color: whitesmoke;
+    border: 2px ridge dimgrey;
+    border-radius: 5px;
+    background-color: black;
+    font-weight: bold;
+    font-size: 10px;
+    left: 390px;
+    height: 20px;
+    text-align: left;
+    padding: 5px;
+    /* display: inline-flex; */
+    top: 22px;
+    clear: both;
+}
+
+.material-icons {
+    float: left;
+    color: dimgrey;
+}
+
+.material-icons:hover {
+    color: red;
+}
+
+#telephone-number {
+    position: absolute;
+    width: 230px;
+    border: 2px solid black;
+    color: white;
+    left: 590px;
+    top: 23px;
+    font-size: 25px;
+}
+
+#telephone-number:hover {
+    color: green;
+}
+
+
+/*BANNER PROPERTIES*/
+
+#main-heading {
+    position: absolute;
+    width: 100%;
+    /*    border: 2px solid red;*/
+    height: 320px;
+    background-color: ghostwhite;
+    z-index: 100;
+    top: 100px;
+}
+
+#banner-img {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/bm-banner.png);
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    top: 10px;
+}
+
+#banner-mask {
+    position: absolute;
+    width: 100%;
+    height: 302px;
+    background: radial-gradient(hsla(0, 0%, 0%, 0.48), rgba(0, 0, 0, 0.42), rgba(0, 128, 0, 0));
+    top: 9px;
+}
+
+#banner-info {
+    position: absolute;
+    left: 440px;
+    top: 60px;
+    z-index: 200;
+    font-size: 30px;
+    color: white;
+}
+
+#banner-info ul p {
+    color: #b6b5b4;
+    font-size: 20px;
+    position: absolute;
+    left: 260px;
+    top: 70px;
+    line-height: 25px;
+    text-align: center;
+}
+
+#banner-info ol ul:nth-child(2) {
+    position: absolute;
+    color: black;
+    top: 151px;
+    background-color: #fee117;
+    border: 2px solid grey;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    left: 382px;
+}
+
+#banner-info ol ul:nth-child(2) p {
+    color: black;
+    top: 13px;
+    text-align: center;
+    left: 10px;
+    font-weight: bold;
+}
+
+
+/*FOOTER PROPERTIES*/
+
+footer {
+    position: fixed;
+    border: 2px solid black;
+    background-color: black;
+    width: 100%;
+    height: 106px;
+    top: 868px;
+    text-align: center;
+}
+
+footer > p {
+    position: relative;
+    text-align: center;
+    top: 24px;
+    color: dimgrey;
+}
+
+.bottom-link-design {
+    position: relative;
+    width: 180px;
+    height: 50px;
+    list-style: none;
+    top: 30px;
+}
+
+ul {
+    display: inline;
+}
+
+a {
+    color: darkred;
+}

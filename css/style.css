@@ -340,10 +340,10 @@ input {
 #fname,
 #lname {
     height: 25px;
-    left: 0;
+    left: -6px;
     position: relative;
     margin: 5px;
-    width: 120px;
+    width: 121px;
 }
 
 #email,
